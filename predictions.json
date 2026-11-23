@@ -1,0 +1,579 @@
+[
+  {
+    "id": "milk",
+    "name": "某品牌纯牛奶",
+    "ingredients": "生牛乳",
+    "total_tokens": 1,
+    "features": [
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.067,
+      0.0
+    ],
+    "pred_class": 0,
+    "probs": {
+      "green": 100.0,
+      "yellow": 0.0,
+      "red": 0.0
+    },
+    "tokens": [
+      {
+        "name": "生牛乳",
+        "rank": 1,
+        "level": 0
+      }
+    ]
+  },
+  {
+    "id": "tea",
+    "name": "无糖乌龙茶饮料",
+    "ingredients": "水、乌龙茶茶叶、维生素C",
+    "total_tokens": 3,
+    "features": [
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.2,
+      0.0
+    ],
+    "pred_class": 0,
+    "probs": {
+      "green": 100.0,
+      "yellow": 0.0,
+      "red": 0.0
+    },
+    "tokens": [
+      {
+        "name": "水",
+        "rank": 1,
+        "level": 0
+      },
+      {
+        "name": "乌龙茶茶叶",
+        "rank": 2,
+        "level": 0
+      },
+      {
+        "name": "维生素C",
+        "rank": 3,
+        "level": 0
+      }
+    ]
+  },
+  {
+    "id": "milktea",
+    "name": "某瓶装风味奶茶",
+    "ingredients": "水、白砂糖、植脂末（葡萄糖浆、氢化植物油）、全脂乳粉、食用香精",
+    "total_tokens": 7,
+    "features": [
+      0.571,
+      0.143,
+      0.667,
+      0.333,
+      0.467,
+      1.0
+    ],
+    "pred_class": 2,
+    "probs": {
+      "green": 0.0,
+      "yellow": 0.0,
+      "red": 100.0
+    },
+    "tokens": [
+      {
+        "name": "水",
+        "rank": 1,
+        "level": 0
+      },
+      {
+        "name": "白砂糖",
+        "rank": 2,
+        "level": 2
+      },
+      {
+        "name": "植脂末",
+        "rank": 3,
+        "level": 2
+      },
+      {
+        "name": "葡萄糖浆",
+        "rank": 4,
+        "level": 2
+      },
+      {
+        "name": "氢化植物油",
+        "rank": 5,
+        "level": 2
+      },
+      {
+        "name": "全脂乳粉",
+        "rank": 6,
+        "level": 0
+      },
+      {
+        "name": "食用香精",
+        "rank": 7,
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": "chips",
+    "name": "某网红烧烤味薯片",
+    "ingredients": "马铃薯、植物油、白砂糖、食用盐、谷氨酸钠、麦芽糊精、阿斯巴甜",
+    "total_tokens": 7,
+    "features": [
+      0.286,
+      0.571,
+      0.333,
+      0.333,
+      0.467,
+      1.0
+    ],
+    "pred_class": 2,
+    "probs": {
+      "green": 0.0,
+      "yellow": 0.0,
+      "red": 100.0
+    },
+    "tokens": [
+      {
+        "name": "马铃薯",
+        "rank": 1,
+        "level": 0
+      },
+      {
+        "name": "植物油",
+        "rank": 2,
+        "level": 1
+      },
+      {
+        "name": "白砂糖",
+        "rank": 3,
+        "level": 2
+      },
+      {
+        "name": "食用盐",
+        "rank": 4,
+        "level": 1
+      },
+      {
+        "name": "谷氨酸钠",
+        "rank": 5,
+        "level": 1
+      },
+      {
+        "name": "麦芽糊精",
+        "rank": 6,
+        "level": 1
+      },
+      {
+        "name": "阿斯巴甜",
+        "rank": 7,
+        "level": 2
+      }
+    ]
+  },
+  {
+    "id": "soda",
+    "name": "某原味无糖气泡水",
+    "ingredients": "水、二氧化碳",
+    "total_tokens": 2,
+    "features": [
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.133,
+      0.0
+    ],
+    "pred_class": 0,
+    "probs": {
+      "green": 100.0,
+      "yellow": 0.0,
+      "red": 0.0
+    },
+    "tokens": [
+      {
+        "name": "水",
+        "rank": 1,
+        "level": 0
+      },
+      {
+        "name": "二氧化碳",
+        "rank": 2,
+        "level": 0
+      }
+    ]
+  },
+  {
+    "id": "wholewheat",
+    "name": "某全麦夹心粗粮饼干",
+    "ingredients": "小麦粉、白砂糖、植物油、全麦粉、起酥油、食用盐、碳酸氢钠、食用香精",
+    "total_tokens": 8,
+    "features": [
+      0.25,
+      0.375,
+      0.333,
+      0.333,
+      0.533,
+      1.0
+    ],
+    "pred_class": 2,
+    "probs": {
+      "green": 0.0,
+      "yellow": 0.0,
+      "red": 100.0
+    },
+    "tokens": [
+      {
+        "name": "小麦粉",
+        "rank": 1,
+        "level": 0
+      },
+      {
+        "name": "白砂糖",
+        "rank": 2,
+        "level": 2
+      },
+      {
+        "name": "植物油",
+        "rank": 3,
+        "level": 1
+      },
+      {
+        "name": "全麦粉",
+        "rank": 4,
+        "level": 0
+      },
+      {
+        "name": "起酥油",
+        "rank": 5,
+        "level": 2
+      },
+      {
+        "name": "食用盐",
+        "rank": 6,
+        "level": 1
+      },
+      {
+        "name": "碳酸氢钠",
+        "rank": 7,
+        "level": 0
+      },
+      {
+        "name": "食用香精",
+        "rank": 8,
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": "lactic",
+    "name": "某风味乳酸菌饮品",
+    "ingredients": "水、白砂糖、全脂乳粉、果葡糖浆、柠檬酸、果胶、食用香精、嗜酸乳杆菌",
+    "total_tokens": 8,
+    "features": [
+      0.25,
+      0.25,
+      0.333,
+      0.667,
+      0.533,
+      1.0
+    ],
+    "pred_class": 2,
+    "probs": {
+      "green": 0.0,
+      "yellow": 0.7,
+      "red": 99.3
+    },
+    "tokens": [
+      {
+        "name": "水",
+        "rank": 1,
+        "level": 0
+      },
+      {
+        "name": "白砂糖",
+        "rank": 2,
+        "level": 2
+      },
+      {
+        "name": "全脂乳粉",
+        "rank": 3,
+        "level": 0
+      },
+      {
+        "name": "果葡糖浆",
+        "rank": 4,
+        "level": 2
+      },
+      {
+        "name": "柠檬酸",
+        "rank": 5,
+        "level": 1
+      },
+      {
+        "name": "果胶",
+        "rank": 6,
+        "level": 0
+      },
+      {
+        "name": "食用香精",
+        "rank": 7,
+        "level": 1
+      },
+      {
+        "name": "嗜酸乳杆菌",
+        "rank": 8,
+        "level": 0
+      }
+    ]
+  },
+  {
+    "id": "chicken",
+    "name": "某香辣即食鸡胸肉",
+    "ingredients": "鸡胸肉、饮用水、酿造酱油、食用盐、白砂糖、香辛料、谷氨酸钠、呈味核苷酸二钠、山梨酸钾",
+    "total_tokens": 9,
+    "features": [
+      0.111,
+      0.333,
+      0.0,
+      1.0,
+      0.6,
+      1.0
+    ],
+    "pred_class": 1,
+    "probs": {
+      "green": 24.6,
+      "yellow": 75.4,
+      "red": 0.0
+    },
+    "tokens": [
+      {
+        "name": "鸡胸肉",
+        "rank": 1,
+        "level": 0
+      },
+      {
+        "name": "饮用水",
+        "rank": 2,
+        "level": 0
+      },
+      {
+        "name": "酿造酱油",
+        "rank": 3,
+        "level": 0
+      },
+      {
+        "name": "食用盐",
+        "rank": 4,
+        "level": 1
+      },
+      {
+        "name": "白砂糖",
+        "rank": 5,
+        "level": 2
+      },
+      {
+        "name": "香辛料",
+        "rank": 6,
+        "level": 0
+      },
+      {
+        "name": "谷氨酸钠",
+        "rank": 7,
+        "level": 1
+      },
+      {
+        "name": "呈味核苷酸二钠",
+        "rank": 8,
+        "level": 0
+      },
+      {
+        "name": "山梨酸钾",
+        "rank": 9,
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": "strawberry",
+    "name": "某冻干草莓脆片",
+    "ingredients": "草莓",
+    "total_tokens": 1,
+    "features": [
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.067,
+      0.0
+    ],
+    "pred_class": 0,
+    "probs": {
+      "green": 100.0,
+      "yellow": 0.0,
+      "red": 0.0
+    },
+    "tokens": [
+      {
+        "name": "草莓",
+        "rank": 1,
+        "level": 0
+      }
+    ]
+  },
+  {
+    "id": "chocopie",
+    "name": "某巧克力涂层夹心派",
+    "ingredients": "小麦粉、白砂糖、植物油、鸡蛋、葡萄糖浆、代可可脂、麦芽糊精、甘油、单硬脂酸甘油酯、大豆磷脂、食用香精",
+    "total_tokens": 11,
+    "features": [
+      0.273,
+      0.273,
+      0.333,
+      0.333,
+      0.733,
+      1.0
+    ],
+    "pred_class": 2,
+    "probs": {
+      "green": 0.0,
+      "yellow": 0.0,
+      "red": 100.0
+    },
+    "tokens": [
+      {
+        "name": "小麦粉",
+        "rank": 1,
+        "level": 0
+      },
+      {
+        "name": "白砂糖",
+        "rank": 2,
+        "level": 2
+      },
+      {
+        "name": "植物油",
+        "rank": 3,
+        "level": 1
+      },
+      {
+        "name": "鸡蛋",
+        "rank": 4,
+        "level": 0
+      },
+      {
+        "name": "葡萄糖浆",
+        "rank": 5,
+        "level": 2
+      },
+      {
+        "name": "代可可脂",
+        "rank": 6,
+        "level": 2
+      },
+      {
+        "name": "麦芽糊精",
+        "rank": 7,
+        "level": 1
+      },
+      {
+        "name": "甘油",
+        "rank": 8,
+        "level": 0
+      },
+      {
+        "name": "单硬脂酸甘油酯",
+        "rank": 9,
+        "level": 0
+      },
+      {
+        "name": "大豆磷脂",
+        "rank": 10,
+        "level": 0
+      },
+      {
+        "name": "食用香精",
+        "rank": 11,
+        "level": 1
+      }
+    ]
+  },
+  {
+    "id": "bread",
+    "name": "某夹心吐司面包",
+    "ingredients": "小麦粉、水、白砂糖、人造奶油、全蛋液、果葡糖浆、食用盐、酵母、丙酸钙、脱氢乙酸钠",
+    "total_tokens": 10,
+    "features": [
+      0.3,
+      0.3,
+      0.333,
+      0.667,
+      0.667,
+      1.0
+    ],
+    "pred_class": 2,
+    "probs": {
+      "green": 0.0,
+      "yellow": 0.2,
+      "red": 99.8
+    },
+    "tokens": [
+      {
+        "name": "小麦粉",
+        "rank": 1,
+        "level": 0
+      },
+      {
+        "name": "水",
+        "rank": 2,
+        "level": 0
+      },
+      {
+        "name": "白砂糖",
+        "rank": 3,
+        "level": 2
+      },
+      {
+        "name": "人造奶油",
+        "rank": 4,
+        "level": 2
+      },
+      {
+        "name": "全蛋液",
+        "rank": 5,
+        "level": 0
+      },
+      {
+        "name": "果葡糖浆",
+        "rank": 6,
+        "level": 2
+      },
+      {
+        "name": "食用盐",
+        "rank": 7,
+        "level": 1
+      },
+      {
+        "name": "酵母",
+        "rank": 8,
+        "level": 0
+      },
+      {
+        "name": "丙酸钙",
+        "rank": 9,
+        "level": 1
+      },
+      {
+        "name": "脱氢乙酸钠",
+        "rank": 10,
+        "level": 1
+      }
+    ]
+  }
+]
